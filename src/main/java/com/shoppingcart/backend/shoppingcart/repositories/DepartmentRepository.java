@@ -10,9 +10,9 @@ package com.shoppingcart.backend.shoppingcart.repositories;
  * @author maradona
  */
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.shoppingcart.backend.shoppingcart.entities.customer;
+import com.shoppingcart.backend.shoppingcart.entities.department;
 
 public
-        interface CustomerRepository extends JpaRepository<customer,Long> {
+        interface DepartmentRepository extends JpaRepository<department, Long>{
     
 }
